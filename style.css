@@ -11,7 +11,7 @@ body {
   text-align: justify;
 }
 #content .ad {
-  font-size: 2em;
+  font-size: 150%;
   margin: 5% 0;
   text-align: right;
 }
@@ -36,7 +36,10 @@ body {
 }
 #modal:target {
   display: block;
+  height: 350px;
+
 }
+
 #modal h1,
 h2 {
   line-height: 80%;
@@ -68,12 +71,13 @@ h2 {
   background-color: #000a;
 }
 
+
 #modal #phone-prefix {
-  position: fixed;
-  width: 4%;
-  height: 4.1%;
-  top: 53.9%;
-  left: 26%;
+  position: absolute;
+  width: 5%;
+  height: 8%;
+  top: 62.1%;
+  left: 5%;
 }
 #modal #phone-prefix:hover {
   color: white;
