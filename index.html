@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Modal WINDOW: pseudo + position</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!----------hw1-------------------
+    de la main page adica pagina principala :)
+    acest element indica continutul principal al paginii
+    -->
+    <main id="content">
+      <h1>Lorem ipsum dolor sit amet.</h1>
+      <h2>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur,
+        dignissimos.
+      </h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio
+        excepturi explicabo perferendis placeat, ab eum delectus doloribus unde
+        quas laboriosam pariatur! Dolorum suscipit inventore minima, ea
+        accusamus illum, animi ex voluptate sit architecto amet consequatur
+        nihil fugiat, sint rerum perspiciatis libero eligendi esse deleniti
+        beatae vero ducimus! Mollitia, harum sapiente?
+      </p>
+      <p>
+        Ut possimus debitis minima animi tempora? Officia, voluptatem.
+        Temporibus ducimus modi a, dolorem facere, fugiat ad nulla ipsum error
+        fugit consequuntur repudiandae esse beatae nobis. Officiis, temporibus
+        eaque saepe qui fuga quae dicta? Laudantium ex quaerat reiciendis, non
+        assumenda quae provident maiores incidunt! Dolor alias asperiores enim
+        suscipit id autem.
+      </p>
+      <p>
+        Blanditiis nulla vel, dicta obcaecati corrupti laborum nobis libero
+        dolorum maxime nostrum doloremque enim eum necessitatibus sed totam
+        similique suscipit officiis ex voluptates, placeat rem delectus?
+        Suscipit cum dolore aperiam labore optio tempore sit vero. Reprehenderit
+        fuga totam, distinctio vel quos sit officia expedita sequi soluta
+        mollitia beatae, aspernatur nulla?
+      </p>
+      <p class="ad">To benefit from HIT<a href="#modal">THIS BUTTON</a></p>
+    </main>
+
+    <div id="modal">
+      <!-------hw2------------
+        Cred ca se potriveste, din motiv ca apare pe o alta sectiune ce nu are o legatura vizuala cu prima sectiune
+        -->
+
+      <h1>Apply for this product!</h1>
+      <h2>In order to apply, fill in the form</h2>
+  
+      <form>
+          <label for="full-name">Full Name:</label>
+          <input type="text" placeholder="e.g., John Doe" required /><br />
+  
+          <label for="phone">Phone:</label><br>
+          <select id="phone-prefix" required>
+              <option value="">+</option>
+              <option value="+1">+1</option>
+              <option value="+44">+44</option>
+              <option value="+44">+373</option>
+          </select>
+          <input type="text" placeholder="e.g., 12345678" required /><br />
+  
+          <label id="em">Email:</label><br>
+          <input type="email" placeholder="e.g., john@example.com" /><br />
+  
+          <button type="submit">APPLY!!!</button>
+      </form>
+      <a href="#">X</a>
+  
+    </div>
+    <div class="overlay"></div>
+  </body>
+</html>
